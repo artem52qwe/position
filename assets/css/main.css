@@ -1,0 +1,220 @@
+@font-face {
+  font-family: roboto;
+  src: url(../fonts/Roboto-Black.ttf);
+  font-weight: 900;
+}
+@font-face {
+  font-family: roboto;
+  src: url(../fonts/Roboto-Bold.ttf);
+  font-size: 700;
+}
+@font-face {
+  font-family: roboto;
+  src: url(../fonts/Roboto-Regular.ttf);
+  font-size: 400;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: roboto;
+  overflow-x: hidden;
+  margin: 0px;
+  padding: 0px;
+}
+
+.main__bg {
+  width: 1470px;
+  height: 800px;
+}
+.main__text {
+  color: #fff;
+  margin-left: 210px;
+  font-weight: 900;
+  font-size: 56px;
+  position: relative;
+  bottom: 550px;
+}
+.main__button {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  background-color: #F2726F;
+  border: none;
+  border-radius: 8px;
+  padding: 15px 32px;
+  position: relative;
+  bottom: 500px;
+  left: 210px;
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3), 0 6px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3), 0 6px 10px rgba(0, 0, 0, 0.1);
+}
+.main__alabuga {
+  margin-top: 94px;
+  margin-left: 91px;
+}
+.main__txt {
+  font-size: 12px;
+  font-weight: 700;
+  margin-top: 100px;
+}
+.main__df {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.main__txxt {
+  font-size: 36px;
+  font-weight: 900;
+  margin-top: 33px;
+  margin-left: 91px;
+}
+.main__bg_dog {
+  position: relative;
+  bottom: 220px;
+  background-color: #5D62B5;
+  border-radius: 40px;
+  width: 1020px;
+  height: 700px;
+  margin-left: 209px;
+  color: #f5f5f5;
+}
+.main__ttxt {
+  margin-top: 36px;
+  margin-left: 91px;
+}
+.main__blob {
+  position: relative;
+  bottom: 80px;
+}
+.main__doggy {
+  border-radius: 40px;
+  position: relative;
+  bottom: 530px;
+  margin-left: 88px;
+}
+
+.dog__icon {
+  color: #5D62B5;
+}
+.dog__name {
+  margin-left: 210px;
+}
+.dog__nick {
+  font-weight: 700;
+  font-size: 12px;
+  color: #5D62B5;
+  margin-left: 36px;
+  position: relative;
+  bottom: 24px;
+}
+.dog__ashab_tamaev {
+  font-weight: 900;
+  font-size: 36px;
+}
+.dog__love {
+  margin-top: 26px;
+  margin-left: 210px;
+}
+.dog__24 {
+  font-weight: 900;
+  font-size: 19px;
+  color: #F2726F;
+}
+.dog__24_text {
+  margin-top: 20px;
+}
+.dog__box {
+  margin-left: 90px;
+  position: relative;
+  bottom: 60px;
+}
+.dog__vet {
+  margin-left: 558px;
+  position: relative;
+  bottom: 190px;
+}
+.dog__container {
+  margin-left: 90px;
+  position: relative;
+  bottom: 60px;
+}
+.dog__site {
+  font-weight: 900;
+  font-size: 19px;
+  color: #F2726F;
+}
+.dog__site_text {
+  margin-top: 24px;
+}
+.dog__streaming {
+  color: #F2726F;
+  font-weight: 900;
+  font-size: 19px;
+}
+.dog__stream {
+  margin-left: 906px;
+  position: relative;
+  bottom: 380px;
+}
+.dog__bx {
+  margin-left: 90px;
+  position: relative;
+  bottom: 60px;
+}
+
+.last {
+  background-color: #29C3BE;
+  height: 500px;
+  position: relative;
+  bottom: 300px;
+}
+.last__line {
+  margin-left: 650px;
+}
+.last__tennis {
+  position: relative;
+  bottom: 100px;
+  right: 70px;
+}
+.last__circles {
+  position: relative;
+  bottom: 420px;
+  right: 370px;
+}
+.last__blob {
+  position: relative;
+  bottom: 612px;
+  z-index: 2;
+}
+.last__pup {
+  position: relative;
+  right: 600px;
+  bottom: 347px;
+}
+.last__text {
+  font-size: 36px;
+  font-weight: 900;
+  position: relative;
+  bottom: 700px;
+  left: 750px;
+  color: #fff;
+}
+.last__button {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  background-color: #F2726F;
+  border: none;
+  border-radius: 8px;
+  padding: 15px 32px;
+  position: relative;
+  left: 750px;
+  bottom: 650px;
+}

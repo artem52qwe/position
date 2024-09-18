@@ -1,0 +1,221 @@
+@font-face {
+    font-family:roboto;
+    src: url(../fonts/Roboto-Black.ttf);
+    font-weight: 900;
+}
+@font-face {
+    font-family:roboto;
+    src: url(../fonts/Roboto-Bold.ttf);
+    font-size: 700;
+}
+@font-face {
+    font-family:roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+    font-size: 400;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family:roboto;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+    &__bg{
+        width: 1470px;
+        height: 800px;
+    }
+    &__text{
+        color: #fff;
+        margin-left: 210px;
+        font-weight: 900;
+        font-size: 56px;
+        position: relative;
+        bottom: 550px;
+    }
+    &__button{
+        color: #fff;
+        font-size: 12px;
+        font-weight: 700;
+        background-color: #F2726F;
+        border: none;
+        border-radius: 8px;
+        padding: 15px 32px;
+        position: relative;
+        bottom: 500px;
+        left: 210px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3),
+              0 6px 10px rgba(0, 0, 0, 0.1)
+    }
+    &__alabuga{
+        margin-top: 94px;
+        margin-left: 91px;
+    }
+    &__txt{
+        font-size: 12px;
+        font-weight: 700;
+        margin-top: 100px;
+    }
+    &__df{
+        display: flex;
+    }
+    &__txxt{
+        font-size: 36px;
+        font-weight: 900;
+        margin-top: 33px;
+        margin-left: 91px;
+    }
+    &__bg_dog{
+        position: relative;
+        bottom: 220px;
+        background-color: #5D62B5;
+        border-radius: 40px;
+        width: 1020px;
+        height: 700px;
+        margin-left: 209px;
+        color: #f5f5f5;
+    }
+    &__ttxt{
+        margin-top: 36px;
+        margin-left: 91px;
+    }
+    &__blob{
+        position: relative;
+        bottom: 80px;
+    }
+    &__doggy{
+        border-radius: 40px;
+        position: relative;
+        bottom: 530px;
+        margin-left: 88px;
+    }
+}
+.dog{
+    &__icon{
+        color: #5D62B5;
+    }
+    &__name{
+        margin-left: 210px;
+    }
+    &__nick{  
+      font-weight: 700;
+      font-size: 12px;
+      color: #5D62B5;
+      margin-left: 36px;
+      position: relative;
+      bottom: 24px;
+    }
+    &__ashab_tamaev{
+        font-weight: 900;
+        font-size: 36px;
+    }
+    &__love{
+        margin-top: 26px;
+        margin-left: 210px;
+    }
+    &__24{
+        font-weight: 900;
+        font-size: 19px;
+        color: #F2726F;
+    }
+    &__24_text{
+        margin-top: 20px;
+    }
+    &__box{
+        margin-left: 90px;
+        position: relative;
+        bottom: 60px;
+    }
+    &__vet{
+        margin-left: 558px;
+        position: relative;
+        bottom: 190px;
+    }
+    &__container{
+        margin-left: 90px;
+        position: relative;
+        bottom: 60px;
+    }
+    &__site{
+        font-weight: 900;
+        font-size: 19px;
+        color: #F2726F;
+    }
+    &__site_text{
+        margin-top: 24px;
+    }
+    &__streaming{
+        color: #F2726F;
+        font-weight: 900;
+        font-size: 19px;
+    }
+    &__stream{
+        margin-left: 906px;
+        position: relative;
+        bottom: 380px;
+    }
+    &__bx{
+        margin-left: 90px;
+        position: relative;
+        bottom: 60px;
+    }
+}
+.last{
+    background-color: #29C3BE;
+    height: 500px;
+    position: relative;
+    bottom: 300px;
+    &__line{
+        margin-left: 650px;
+    }
+    &__tennis{
+        position: relative;
+        bottom: 100px;
+        right: 70px;
+    }
+    &__circles{
+        position: relative;
+        bottom: 420px;
+        right: 370px;
+    }
+    &__blob{
+        position: relative;
+        bottom: 612px;
+        z-index: 2;
+    }
+    &__pup{
+        position: relative;
+        right: 600px;
+        bottom: 347px;
+    }
+    &__text{
+        font-size: 36px;
+        font-weight: 900;
+        position: relative;
+        bottom: 700px;
+        left: 750px;
+        color: #fff;
+    }
+    &__button{
+        color: #fff;
+        font-size: 12px;
+        font-weight: 700;
+        background-color: #F2726F;
+        border: none;
+        border-radius: 8px;
+        padding: 15px 32px;
+        position: relative;
+        left: 750px;
+        bottom: 650px;
+    }
+}
